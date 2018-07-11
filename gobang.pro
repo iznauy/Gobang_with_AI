@@ -34,7 +34,8 @@ HEADERS += \
     model.h \
     state.h \
     constant.h \
-    common.h
+    common.h \
+    action.h
 
 FORMS += \
         mainwindow.ui

@@ -10,7 +10,8 @@ enum Player
 enum Chess
 {
     BLACK,
-    WHITE
+    WHITE,
+    EMPTY
 };
 
 enum Result
@@ -24,8 +25,10 @@ enum Result
 class Point
 {
 public:
-    int x;
-    int y;
+    int row;
+    int col;
+    Point(int row, int col)
+        : row(row), col(col) {}
 };
 
 #endif // COMMON_H
